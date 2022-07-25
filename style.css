@@ -1,0 +1,106 @@
+body{
+    background-color: #D9F8C4;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #D9F8C4;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.others{
+    display: flex;
+   
+}
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.other-links{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: larger;
+}
+.back-img{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+}
+.search{
+    width: 800px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    border-radius: 15px;
+    top: 35%;
+    left: 25%;
+
+}
+.location{
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.bi-search  {
+    align-items: center;    
+    font-size: 30px;    
+    display: flex;
+    margin-top: 9px;
+    justify-content: center;
+}
+.whatsapp{
+    bottom: 0;
+    right: 0;
+    background-color: #00FFAB;
+    border: none;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: larger;
+    position: fixed;
+    margin: 0px 10px 5px 0px;
+}
+.food-card{
+    width: 420px;
+    border-color: aliceblue;
+    border: 3px solid;
+    border-radius: 18px;
+    margin: 20px 15px;
+    justify-content: center;
+    background-color:#FFF8F3;
+}
+.card-header{
+    position: relative;
+}
+.card-img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.order{
+    background-color: black;
+    color: white;
+    margin:5px;
+    padding: 8px 15px;
+    border-radius: 15px;
+    border: none;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.ratings{
+    position: absolute;
+    bottom:8px;
+    left: 0;
+    background-color: #FFBBBB;
+    margin: 3px 6px;
+    border-radius: 5px;
+    padding: 3px 6px;
+}
+.main-food-card{
+    display: flex;
+    justify-content: space-between;
+}
